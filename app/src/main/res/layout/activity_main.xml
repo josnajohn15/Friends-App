@@ -1,0 +1,64 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="70px"
+    android:background="#DBDCD6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:id="@+id/myname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Friend's Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter your friend's name"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Friend's Nickname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your friend's nickname"
+        android:id="@+id/nick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Decribe about your friend"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des"
+        android:hint="Enter the description"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD FRIEND"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10px"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_done_24"
+        android:textColor="#CBDDE6"
+        android:id="@+id/reg"
+        />
+
+
+
+</LinearLayout>
